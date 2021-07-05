@@ -19,7 +19,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Deploy
-      uses: hungbang/vue-cli-plugin-s3-deploy-action@master
+      uses: hungbang/vue-cli-plugin-s3-deploy-action-new@master
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
