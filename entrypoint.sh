@@ -27,6 +27,8 @@ yarn add vue-cli-plugin-s3-deploy@next
 yarn install
 
 yarn build --mode ${PROFILE}
-echo ${$AWS_ACCESS_KEY_ID}
-echo ${$AWS_SECRET_ACCESS_KEY}
+
+printenv AWS_ACCESS_KEY_ID
+printenv $AWS_SECRET_ACCESS_KEY
+
 yarn deploy --mode ${PROFILE}
