@@ -1,5 +1,5 @@
 # vue-cli-plugin-s3-deploy-action-new
-A Github action for [multiplegeorges/vue-cli-plugin-s3-deploy](https://github.com/multiplegeorges/vue-cli-plugin-s3-deploy) ☁️
+A Github action for [hungbang/vue-cli-plugin-s3-deploy-action-new](https://github.com/hungbang/vue-cli-plugin-s3-deploy-action-new) ☁️
 
 # In development!
 
@@ -10,7 +10,7 @@ name: Upload Vue App to S3
 on:
   push:
     branches:
-    - master
+    - staging
 
 jobs:
   deploy:
